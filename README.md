@@ -18,7 +18,7 @@ This is an **accessible contact form** designed to meet **WCAG standards** and e
 
 
 ## 🏗️ **Technologies Used**
-- **HTML5** (Semantic Markup)
-- **CSS3** (Responsive Styling)
-- **JavaScript (Vanilla)** (Form Validation)
+- **HTML5** 
+- **CSS3** 
+- **JavaScript** (Form Validation)
 - **Lighthouse** (Accessibility Testing)

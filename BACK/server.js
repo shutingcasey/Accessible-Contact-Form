@@ -67,7 +67,7 @@ db.initialize(process.env.MONGODB_CONN_STRING).then(()=>{
                     else res.status(404).json({ 
                         status: "error",
                         message: "Message not found. It may have already been deleted.",
-                        spokenMessage: "We couldn't find the message. It may have already been deleted."  
+                        spokenMessage: "We couldn't find the message. It may have already been deleted. Please try again later."  
                     });
                 })
                 .catch(err => res.status(500).json({ error: "Failed to delete message", message: err.message }));
